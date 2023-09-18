@@ -1,0 +1,1 @@
+# softex-app-typeScript
