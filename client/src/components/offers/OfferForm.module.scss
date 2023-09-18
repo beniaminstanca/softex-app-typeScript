@@ -1,0 +1,51 @@
+.form-offer {
+  min-width: 25rem;
+  display: inline-grid;
+  text-align: left;
+
+  p {
+    display: inline-grid;
+    margin: 0.3rem;
+
+    span{
+      color: red;
+    }
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 0.25rem;
+    margin-top: 0.2rem;
+    border: 0;
+    background-color: #253137;
+    border-radius: 0.5rem;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .actions {
+    margin-top: 10px;
+    margin-inline: 0.3rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    button {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      background-color: #625708;
+      color: #fff;
+      border: none;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    button:hover {
+      background-color: #9b8e38;
+    }
+  }
+}
