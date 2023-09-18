@@ -1,0 +1,36 @@
+.mui-table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+table{
+    border-radius: 5px;
+    border-bottom: 1px solid #29393f;
+    border-top: 1px solid #29393f;
+    width: 90%;
+    th{
+        height: 60px;
+        text-align: center;
+        color: #ffd700;
+        font-size: 20px;
+    }
+    tr{
+        height: 40px;
+        &:nth-child(even) {
+            background-color: #1e2c34;
+        }
+    }
+    td{
+        text-align: center;
+    }
+    a:hover {
+        svg{
+            color: #ffd700;
+            font-size: 22px;
+          }
+      }
+      a svg{
+        font-size: 20px;
+      }
+}

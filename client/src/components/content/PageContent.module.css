@@ -1,0 +1,10 @@
+.text-zone {
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    min-height: 800px;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+}

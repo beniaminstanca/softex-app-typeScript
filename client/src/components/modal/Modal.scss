@@ -1,0 +1,25 @@
+
+    .modal{
+      background: linear-gradient(#576268, #47669c);
+    }
+    .actions {
+      margin-top: 10px;
+      margin-inline: 0.3rem;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    
+      button {
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        background-color: #625708;
+        color: #fff;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    
+      button:hover {
+        background-color: #9b8e38;
+      }
+    }
